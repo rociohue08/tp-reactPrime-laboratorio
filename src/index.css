@@ -1,0 +1,36 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background: #333; /* Color de fondo del header */
+  color: #fff;      /* Color de texto del header */
+  padding: 1rem;
+  text-align: center;
+}
+
+nav {
+  background: #444; /* Color de fondo del nav */
+  color: #fff;      /* Color de texto del nav */
+  padding: 1rem;
+}
+
+aside {
+  background: #eee; /* Color de fondo del aside */
+  padding: 1rem;
+  width: 200px;     /* Ancho del aside */
+}
+
+main {
+  flex: 1;          /* Permite que el main ocupe el espacio restante */
+  padding: 1rem;
+}
+
+footer {
+  background: #333; /* Color de fondo del footer */
+  color: #fff;      /* Color de texto del footer */
+  text-align: center;
+  padding: 1rem;
+}
